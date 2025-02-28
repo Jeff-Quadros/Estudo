@@ -3,25 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Jeff</title>
   </head>
   <body>
-    <h1>Bem vindo ao meu repositorio</h1>
-    <h2>
-      Vou listar alguns sites que estão desenvolvidos ou em desenvolvimento,
-      para que você possa acompanhar
-    </h2>
-    <ul>
-      <li><a href="Petlife/">Petlife</a></li>
-      <h3>
-        Aparti daqui são projetos utilizados nas aulas, para poder praticar
-      </h3>
-      <li>
-        <a href="Projeto/projeto 1/Formulario.html">Formulario</a>
-      </li>
-      <li>
-        <a href="Projeto/projeto 1/JeffPedia.html">JeffPedia</a>
-      </li>
-    </ul>
+    <header>
+      <button>Jeff</button>
+      <nav>
+        <button><a href="#sobre">Sobre</a></button>
+        <button><a href="#projetos">Projetos</a></button>
+        <button><a href="#contato">Contato</a></button>
+      </nav>
+    </header>
+
+    <section id="sobre">
+      <div>
+        <h1>Jeff</h1>
+        <p>
+          Olá, meu nome é Jefferson, sou estudante de programação e estou
+          desenvolvendo sites para praticar e aprimorar meus conhecimentos.
+        </p>
+      </div>
+      <img src="img/jeff.webp" alt="" />
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <div id="boxes">
+        <div class="box-projeto">
+          <a href="Petlife/" target="_blank"
+            ><img src="img/Petlife.PNG" alt=""
+          /></a>
+          <p>Site de clinica veterinaria</p>
+        </div>
+        <div class="box-projeto">
+          <a href="Projeto/projeto 1/Formulario.html" target="_blank"
+            ><img src="img/Formulario.PNG" alt=""
+          /></a>
+          <p>Formulario Simples</p>
+        </div>
+        <div class="box-projeto">
+          <a href="Projeto/projeto 1/JeffPedia.html" target="_blank"
+            ><img src="img/JeffPedia.PNG" alt=""
+          /></a>
+          <p>Clone mal feito da wikipedia</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato"></section>
   </body>
 </html>
