@@ -27,17 +27,36 @@ header button {
 }
 
 #sobre img {
-  width: 300px;
-  height: 300px;
+  width: 45%;
+  height: 70%;
+  border-radius: 5px;
 }
 
 #sobre {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   height: 100vh;
+  padding: 30px;
 }
 
+#descricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+}
+
+#descricao img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#descricao p {
+  text-align: left;
+  margin-bottom: 20px;
+}
 #projetos {
   display: flex;
   flex-direction: column;
