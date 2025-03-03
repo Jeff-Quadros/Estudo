@@ -9,21 +9,24 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #0a0a4d;
 }
-
-a {
+header img {
+  width: 150px;
+  margin-left: 100px;
+}
+nav a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 header button {
-  background-color: white;
+  background-color: transparent;
   padding: 5px 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  color: black;
+  color: #4b4b4d;
 }
 
 #sobre img {
@@ -54,8 +57,12 @@ header button {
 }
 
 #descricao p {
-  text-align: left;
-  margin-bottom: 20px;
+  max-width: 600px;
+  text-align: justify;
+  font-family: poppins;
+  font-size: 30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 #projetos {
   display: flex;
