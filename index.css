@@ -30,8 +30,8 @@ header button {
 }
 
 #sobre img {
-  width: 45%;
-  height: 70%;
+  width: 600px;
+  height: 490px;
   border-radius: 5px;
 }
 
@@ -52,6 +52,7 @@ header button {
 
 #descricao img {
   display: block;
+  height: 200px;
   margin: 0 auto;
   margin-bottom: 20px;
 }
