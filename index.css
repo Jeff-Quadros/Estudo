@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+h2,
+p {
+  font-family: poppins;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -60,7 +65,6 @@ header button {
 #descricao p {
   max-width: 600px;
   text-align: justify;
-  font-family: poppins;
   font-size: 25px;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -92,7 +96,6 @@ header button {
 .box-projeto p {
   margin-top: 30px;
   padding: 30px 0;
-  font-family: poppins;
 }
 
 .box-projeto img {
