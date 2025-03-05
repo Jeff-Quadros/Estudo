@@ -11,59 +11,70 @@
     <form>
       <h3>Primeiro vamos conhecer um pouco você</h3>
       <div>
-        <label>Nome <input type="text" /></label> <br />
-        <label>Idade <input type="number" /></label><br />
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" />
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" /><br />
         <label>Sexo:</label>
-        <label
-          ><input type="radio" name="sexo" value="masculino" /> Masculino</label
+        <label for="masculino"
+          ><input type="radio" name="sexo" id="masculino" value="masculino" />
+          Masculino</label
         >
-        <label
-          ><input type="radio" name="sexo" value="feminino" /> Feminino</label
+        <label for="feminino"
+          ><input type="radio" name="sexo" id="feminino" value="feminino" />
+          Feminino</label
         >
       </div>
       <h3>Vamos para outras questões, mais filosóficas</h3>
       <div>
-        <label
-          >Se você pudesse escrever algo para si mesmo no futuro, o que seria?
-        </label>
+        <label for="futuro"
+          >Se você pudesse escrever algo para si mesmo no futuro, o que
+          seria?</label
+        >
         <br />
-        <textarea name="" id=""></textarea>
+        <textarea name="futuro" id="futuro" placeholder="..."></textarea>
         <br />
         <label>Qual o sentido da vida para você?</label><br />
-        <label
-          ><input type="checkbox" name="sentido_vida" value="felicidade" />
+        <label for="felicidade"
+          ><input
+            type="checkbox"
+            name="sentido_vida"
+            id="felicidade"
+            value="felicidade"
+          />
           Felicidade</label
         ><br />
-        <label
-          ><input type="checkbox" name="sentido_vida" value="sucesso" />
+        <label for="sucesso"
+          ><input
+            type="checkbox"
+            name="sentido_vida"
+            id="sucesso"
+            value="sucesso"
+          />
           Sucesso</label
         ><br />
-        <label
-          ><input type="checkbox" name="sentido_vida" value="amor" />
+        <label for="amor"
+          ><input type="checkbox" name="sentido_vida" id="amor" value="amor" />
           Amor</label
         ><br />
-        <label
-          ><input type="checkbox" name="sentido_vida" value="conhecimento" />
+        <label for="conhecimento"
+          ><input
+            type="checkbox"
+            name="sentido_vida"
+            id="conhecimento"
+            value="conhecimento"
+          />
           Conhecimento</label
         ><br />
 
-        <label>O que você mais valoriza na vida?</label><br />
-        <label
-          ><input type="checkbox" name="valoriza_vida" value="familia" />
-          Família</label
-        ><br />
-        <label
-          ><input type="checkbox" name="valoriza_vida" value="amizade" />
-          Amizade</label
-        ><br />
-        <label
-          ><input type="checkbox" name="valoriza_vida" value="carreira" />
-          Carreira</label
-        ><br />
-        <label
-          ><input type="checkbox" name="valoriza_vida" value="saude" />
-          Saúde</label
-        ><br />
+        <label for="valoriza_vida">O que você mais valoriza na vida?</label>
+        <select name="valoriza_vida" id="valoriza_vida">
+          <option value="" disabled selected>Selecione um valor</option>
+          <option value="familia">Família</option>
+          <option value="amizade">Amizade</option>
+          <option value="carreira">Carreira</option>
+          <option value="saude">Saúde</option>
+        </select>
       </div>
       <input type="button" value="Enviar" />
     </form>
